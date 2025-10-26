@@ -17,7 +17,7 @@ export default function Home() {
   };
 
   return (
-    <div className="min-h-screen bg-blue-900">
+    <div className="min-h-screen bg-blue-400">
       <CountdownBar targetHour={20} onScrollToUrgency={scrollToUrgency} />
       
       <HeroSection />

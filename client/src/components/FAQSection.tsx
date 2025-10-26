@@ -30,16 +30,16 @@ export default function FAQSection() {
   ];
 
   return (
-    <section className="relative min-h-screen bg-gradient-to-br from-blue-600 via-blue-500 to-purple-600 py-24 overflow-hidden">
+    <section className="relative min-h-screen bg-gradient-to-br from-cyan-400 via-blue-400 to-cyan-500 py-24 overflow-hidden grainy-texture">
       {/* Abstract shapes */}
-      <div className="absolute inset-0 overflow-hidden">
-        <div className="absolute top-20 left-20 w-96 h-96 bg-purple-500/20 rounded-full blur-3xl"></div>
-        <div className="absolute bottom-20 right-20 w-96 h-96 bg-blue-400/20 rounded-full blur-3xl"></div>
+      <div className="absolute inset-0 overflow-hidden z-0">
+        <div className="absolute top-20 left-20 w-96 h-96 bg-pink-300/20 rounded-full blur-3xl"></div>
+        <div className="absolute bottom-20 right-20 w-96 h-96 bg-cyan-300/30 rounded-full blur-3xl"></div>
       </div>
 
-      <div className="relative max-w-4xl mx-auto px-6 lg:px-8">
-        <div className="text-center mb-16">
-          <h2 className="text-5xl sm:text-6xl md:text-7xl font-black text-white tracking-tighter">
+      <div className="relative max-w-4xl mx-auto px-6 lg:px-8 z-10">
+        <div className="text-center mb-20">
+          <h2 className="text-5xl sm:text-6xl md:text-7xl font-bold text-white tracking-tight text-shadow-3d">
             Quick Questions
           </h2>
         </div>
@@ -49,13 +49,13 @@ export default function FAQSection() {
             <AccordionItem 
               key={index} 
               value={`item-${index}`}
-              className="bg-white/15 backdrop-blur-md border-2 border-white/30 rounded-md overflow-hidden"
+              className="bg-white/20 backdrop-blur-md border border-white/40 rounded-2xl overflow-hidden shadow-lg"
               data-testid={`accordion-faq-${index}`}
             >
-              <AccordionTrigger className="px-6 md:px-8 py-6 text-left text-xl md:text-2xl font-bold text-white hover:bg-white/10 transition-all duration-300 hover:no-underline">
+              <AccordionTrigger className="px-6 md:px-8 py-6 text-left text-xl md:text-2xl font-semibold text-white hover:bg-white/25 transition-all duration-300 hover:no-underline text-shadow-soft">
                 {faq.question}
               </AccordionTrigger>
-              <AccordionContent className="px-6 md:px-8 pb-6 text-lg md:text-xl font-semibold text-white/90">
+              <AccordionContent className="px-6 md:px-8 pb-6 text-lg md:text-xl font-medium text-white/90 text-shadow-soft">
                 {faq.answer}
               </AccordionContent>
             </AccordionItem>
