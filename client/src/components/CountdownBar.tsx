@@ -41,7 +41,7 @@ export default function CountdownBar({ targetHour = 20, onScrollToUrgency }: Cou
 
   return (
     <div 
-      className="fixed top-0 left-0 right-0 z-50 bg-gradient-to-r from-blue-500 to-cyan-500 text-white py-3 px-4 cursor-pointer hover-elevate active-elevate-2"
+      className="fixed top-0 left-0 right-0 z-50 bg-gradient-to-r from-blue-400 to-blue-450 text-white py-3 px-4 cursor-pointer hover-elevate active-elevate-2"
       onClick={onScrollToUrgency}
       data-testid="countdown-bar"
     >

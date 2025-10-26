@@ -7,7 +7,7 @@ export default function ProblemSection() {
   ];
 
   return (
-    <section className="relative bg-gradient-to-br from-cyan-400 via-blue-400 to-cyan-500 py-32 overflow-hidden grainy-texture">
+    <section className="relative bg-gradient-to-b from-blue-500 via-blue-550 to-blue-600 py-32 overflow-hidden grainy-texture">
       {/* Abstract shapes */}
       <div className="absolute inset-0 overflow-hidden z-0">
         <div className="absolute top-40 right-20 w-96 h-96 bg-pink-300/20 rounded-full blur-3xl"></div>

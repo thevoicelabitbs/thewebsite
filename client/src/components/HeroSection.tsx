@@ -15,7 +15,7 @@ export default function HeroSection({ onJoinClick }: HeroSectionProps) {
   };
 
   return (
-    <section className="relative bg-gradient-to-br from-blue-400 via-cyan-400 to-blue-500 overflow-hidden pt-20 pb-32 grainy-texture">
+    <section className="relative bg-gradient-to-b from-blue-400 via-blue-450 to-blue-500 overflow-hidden pt-20 pb-32 grainy-texture">
       {/* Abstract shapes */}
       <div className="absolute inset-0 overflow-hidden z-0">
         <div className="absolute top-20 left-10 w-96 h-96 bg-pink-300/20 rounded-full blur-3xl"></div>

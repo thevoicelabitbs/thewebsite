@@ -14,7 +14,7 @@ export default function FinalCTASection({ onJoinClick }: FinalCTASectionProps) {
   };
 
   return (
-    <section className="relative bg-gradient-to-br from-blue-400 via-cyan-400 to-blue-500 py-32 overflow-hidden flex items-center grainy-texture">
+    <section className="relative bg-gradient-to-b from-blue-550 via-blue-500 to-blue-450 py-32 overflow-hidden flex items-center grainy-texture">
       {/* Abstract shapes */}
       <div className="absolute inset-0 overflow-hidden z-0">
         <div className="absolute top-20 left-1/4 w-96 h-96 bg-pink-300/30 rounded-full blur-3xl"></div>

@@ -81,6 +81,11 @@ export default {
           busy: "rgb(239 68 68)",
           offline: "rgb(156 163 175)",
         },
+        blue: {
+          '450': '#60a5fa', // Between 400 and 500
+          '550': '#3b82f6', // Between 500 and 600
+          '650': '#2563eb', // Between 600 and 700
+        },
       },
       fontFamily: {
         sans: ["Chillax", "system-ui", "sans-serif"],

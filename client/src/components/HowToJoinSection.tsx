@@ -12,7 +12,7 @@ export default function HowToJoinSection({ onJoinClick }: HowToJoinSectionProps)
   };
 
   return (
-    <section className="relative bg-gradient-to-br from-cyan-400 via-blue-400 to-cyan-500 py-32 overflow-hidden grainy-texture">
+    <section className="relative bg-gradient-to-b from-blue-450 via-blue-400 to-blue-500 py-32 overflow-hidden grainy-texture">
       {/* Abstract shapes */}
       <div className="absolute inset-0 overflow-hidden z-0">
         <div className="absolute top-20 left-20 w-96 h-96 bg-pink-300/20 rounded-full blur-3xl"></div>

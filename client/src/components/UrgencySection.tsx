@@ -14,7 +14,7 @@ export default function UrgencySection({ onJoinClick }: UrgencySectionProps) {
   return (
     <section 
       id="urgency-section"
-      className="relative bg-gradient-to-br from-blue-500 via-cyan-500 to-blue-600 py-32 overflow-hidden grainy-texture"
+      className="relative bg-gradient-to-b from-blue-500 via-blue-600 to-blue-650 py-32 overflow-hidden grainy-texture"
       data-testid="section-urgency"
     >
       {/* Glow effects */}
