@@ -1,5 +1,5 @@
-import girlSmilingImg from "@assets/girl smiling_1761490322615.png";
-import mascotImg from "@assets/mascot club_1761490322616.png";
+// import girlSmilingImg from "@assets/girl smiling_1761490322615.png";
+// import mascotImg from "@assets/mascot club_1761490322616.png";
 
 export default function BenefitsSection() {
   const benefits = [
@@ -26,46 +26,21 @@ export default function BenefitsSection() {
           </h2>
         </div>
 
-        <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center mb-16">
-          {/* Left Character - Large, Rising */}
-          <div className="hidden lg:block lg:col-span-3">
-            <img 
-              src={girlSmilingImg} 
-              alt="Student" 
-              className="w-full max-w-sm drop-shadow-[0_0_40px_rgba(6,182,212,0.4)] animate-[float_6s_ease-in-out_infinite]"
-              data-testid="img-student-benefits"
-              style={{ animationDelay: '0.5s' }}
-            />
-          </div>
-
-          {/* Benefits Grid */}
-          <div className="lg:col-span-6 grid grid-cols-1 md:grid-cols-2 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-16">
             {benefits.map((benefit, index) => (
               <div 
                 key={index}
-                className="bg-white/20 backdrop-blur-md border border-white/40 rounded-2xl p-6 hover:bg-white/25 transition-all duration-300 shadow-lg"
+                className="bg-white/20 backdrop-blur-md border border-white/40 rounded-2xl p-5 md:p-6 hover:bg-white/25 transition-all duration-300 shadow-lg"
                 data-testid={`card-benefit-${index}`}
               >
-                <div className="flex items-start gap-4">
-                  <span className="text-3xl text-green-300 flex-shrink-0">✓</span>
-                  <p className="text-lg md:text-xl font-bold text-white text-shadow-soft">
+                <div className="flex items-start gap-3 md:gap-4">
+                  <span className="text-2xl md:text-3xl text-green-300 flex-shrink-0">✓</span>
+                  <p className="text-base md:text-lg lg:text-xl font-bold text-white text-shadow-soft">
                     {benefit}
                   </p>
                 </div>
               </div>
             ))}
-          </div>
-
-          {/* Right Character - Small, Rising */}
-          <div className="hidden lg:block lg:col-span-3 flex justify-end">
-            <img 
-              src={mascotImg} 
-              alt="Voice Lab Mascot" 
-              className="w-48 drop-shadow-[0_0_40px_rgba(6,182,212,0.4)] animate-[float_6s_ease-in-out_infinite]"
-              data-testid="img-mascot-benefits"
-              style={{ animationDelay: '2s' }}
-            />
-          </div>
         </div>
 
         <div className="text-center mt-16">

@@ -1,4 +1,4 @@
-import mascotImg from "@assets/mascot club_1761490322616.png";
+// import mascotImg from "@assets/mascot club_1761490322616.png";
 
 interface FinalCTASectionProps {
   onJoinClick?: () => void;
@@ -23,28 +23,18 @@ export default function FinalCTASection({ onJoinClick }: FinalCTASectionProps) {
       </div>
 
       <div className="relative max-w-6xl mx-auto px-6 lg:px-8 text-center w-full z-10">
-        <div className="mb-16">
-          <h2 className="text-7xl sm:text-8xl md:text-9xl font-black text-white tracking-tight mb-10 text-shadow-3d">
+        <div className="mb-12 md:mb-16">
+          <h2 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-black text-white tracking-tight mb-6 md:mb-10 text-shadow-3d">
             The Voice Lab
           </h2>
-          <p className="text-2xl md:text-3xl font-bold text-white/95 text-shadow-soft">
+          <p className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-bold text-white/95 text-shadow-soft px-4">
             Where ITBS Students Become Global Professionals
           </p>
         </div>
 
-        <div className="mb-20">
-          <img 
-            src={mascotImg} 
-            alt="Voice Lab Mascot" 
-            className="w-64 md:w-80 mx-auto drop-shadow-[0_0_50px_rgba(6,182,212,0.5)] animate-[float_6s_ease-in-out_infinite]"
-            data-testid="img-mascot-final"
-            style={{ animationDelay: '1s' }}
-          />
-        </div>
-
         <button 
           onClick={handleJoinClick}
-          className="inline-block px-16 md:px-20 py-6 md:py-8 text-2xl md:text-3xl font-bold text-white bg-orange-500 rounded-full shadow-xl hover:shadow-2xl transition-all duration-300 hover:scale-105 active:scale-95 mb-12"
+          className="inline-block w-full max-w-sm md:max-w-lg px-8 md:px-16 lg:px-20 py-5 md:py-6 lg:py-8 text-lg md:text-xl lg:text-2xl font-bold text-white bg-orange-500 rounded-full shadow-xl hover:shadow-2xl transition-all duration-300 hover:scale-105 active:scale-95 mb-8 md:mb-12 touch-manipulation"
           data-testid="button-join-final"
         >
           Join WhatsApp Group

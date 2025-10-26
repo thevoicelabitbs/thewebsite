@@ -1,4 +1,4 @@
-import mascotImg from "@assets/mascot club_1761490322616.png";
+// import mascotImg from "@assets/mascot club_1761490322616.png";
 
 export default function SolutionSection() {
   return (
@@ -19,74 +19,63 @@ export default function SolutionSection() {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-start">
           {/* Card 1 - Regular sessions */}
           <div 
-            className="lg:col-span-5 bg-white/20 backdrop-blur-md border border-white/40 rounded-3xl p-10 hover:bg-white/25 transition-all duration-300 shadow-xl"
+            className="bg-white/20 backdrop-blur-md border border-white/40 rounded-3xl p-8 md:p-10 hover:bg-white/25 transition-all duration-300 shadow-xl"
             data-testid="card-monday-sessions"
           >
-            <h3 className="text-3xl md:text-4xl font-black text-white mb-8 text-shadow-3d">
+            <h3 className="text-2xl md:text-3xl lg:text-4xl font-black text-white mb-6 md:mb-8 text-shadow-3d">
               Every Monday Evening
             </h3>
-            <ul className="space-y-5 text-lg md:text-xl font-bold text-white/95">
-              <li className="flex items-start gap-4">
-                <span className="text-2xl">💬</span>
+            <ul className="space-y-4 md:space-y-5 text-base md:text-lg lg:text-xl font-bold text-white/95">
+              <li className="flex items-start gap-3 md:gap-4">
+                <span className="text-xl md:text-2xl flex-shrink-0">💬</span>
                 <span className="text-shadow-soft">1-on-1 with students across three countries</span>
               </li>
-              <li className="flex items-start gap-4">
-                <span className="text-2xl">🌍</span>
+              <li className="flex items-start gap-3 md:gap-4">
+                <span className="text-xl md:text-2xl flex-shrink-0">🌍</span>
                 <span className="text-shadow-soft">Talk about real topics (UN SDGs)</span>
               </li>
-              <li className="flex items-start gap-4">
-                <span className="text-2xl">⏰</span>
+              <li className="flex items-start gap-3 md:gap-4">
+                <span className="text-xl md:text-2xl flex-shrink-0">⏰</span>
                 <span className="text-shadow-soft">1-2 hours of conversation</span>
               </li>
-              <li className="flex items-start gap-4">
-                <span className="text-2xl">🤝</span>
+              <li className="flex items-start gap-3 md:gap-4">
+                <span className="text-xl md:text-2xl flex-shrink-0">🤝</span>
                 <span className="text-shadow-soft">Build international friendships</span>
               </li>
             </ul>
           </div>
 
-          {/* Mascot - Rising */}
-          <div className="lg:col-span-2 flex justify-center">
-            <img 
-              src={mascotImg} 
-              alt="Voice Lab Mascot" 
-              className="w-48 md:w-64 drop-shadow-[0_0_40px_rgba(6,182,212,0.4)] animate-[float_6s_ease-in-out_infinite]"
-              data-testid="img-mascot-solution"
-              style={{ animationDelay: '1.5s' }}
-            />
-          </div>
-
           {/* Card 2 - Urgent prep session */}
           <div 
-            className="lg:col-span-5 bg-gradient-to-br from-orange-400 to-pink-400 border-2 border-orange-300/50 rounded-3xl p-10 hover:shadow-2xl transition-all duration-300 shadow-xl"
+            className="bg-gradient-to-br from-orange-400 to-pink-400 border-2 border-orange-300/50 rounded-3xl p-8 md:p-10 hover:shadow-2xl transition-all duration-300 shadow-xl"
             data-testid="card-prep-session"
           >
-            <h3 className="text-3xl md:text-4xl font-black text-white mb-8 text-shadow-3d">
+            <h3 className="text-2xl md:text-3xl lg:text-4xl font-black text-white mb-6 md:mb-8 text-shadow-3d">
               ⚠️ TODAY: Sunday 8 PM<br />
               <span className="text-yellow-100">ONE TIME ONLY</span>
             </h3>
-            <ul className="space-y-5 text-lg md:text-xl font-bold text-white">
-              <li className="flex items-start gap-4">
-                <span className="text-2xl">🎯</span>
+            <ul className="space-y-4 md:space-y-5 text-base md:text-lg lg:text-xl font-bold text-white">
+              <li className="flex items-start gap-3 md:gap-4">
+                <span className="text-xl md:text-2xl flex-shrink-0">🎯</span>
                 <span className="text-shadow-soft">EXCLUSIVE entry prep session</span>
               </li>
-              <li className="flex items-start gap-4">
-                <span className="text-2xl">🔑</span>
+              <li className="flex items-start gap-3 md:gap-4">
+                <span className="text-xl md:text-2xl flex-shrink-0">🔑</span>
                 <span className="text-shadow-soft">This is your ONLY way to join</span>
               </li>
-              <li className="flex items-start gap-4">
-                <span className="text-2xl">💡</span>
+              <li className="flex items-start gap-3 md:gap-4">
+                <span className="text-xl md:text-2xl flex-shrink-0">💡</span>
                 <span className="text-shadow-soft">Learn conversation techniques</span>
               </li>
-              <li className="flex items-start gap-4">
-                <span className="text-2xl">🌐</span>
+              <li className="flex items-start gap-3 md:gap-4">
+                <span className="text-xl md:text-2xl flex-shrink-0">🌐</span>
                 <span className="text-shadow-soft">Get matched with international partners</span>
               </li>
-              <li className="flex items-start gap-4">
-                <span className="text-2xl">⏱️</span>
+              <li className="flex items-start gap-3 md:gap-4">
+                <span className="text-xl md:text-2xl flex-shrink-0">⏱️</span>
                 <span className="text-shadow-soft">Limited to 10 spots - LAST CHANCE!</span>
               </li>
             </ul>
