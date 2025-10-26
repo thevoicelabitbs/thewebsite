@@ -82,9 +82,21 @@ export default {
           offline: "rgb(156 163 175)",
         },
         blue: {
-          '450': '#60a5fa', // Between 400 and 500
-          '550': '#3b82f6', // Between 500 and 600
-          '650': '#2563eb', // Between 600 and 700
+          '450': '#70C0F7', // Light blue from reference
+          '550': '#60B2F7', // Sky blue from reference
+          '650': '#3A82F6', // Deep blue from reference
+        },
+        mint: {
+          '400': '#6EE7B7', // Mint green from reference
+          '500': '#5DD9A8', // Slightly darker mint
+        },
+        pink: {
+          '300': '#FBCFE8', // Soft pink from reference
+          '400': '#F9A8D4', // Slightly deeper pink
+        },
+        orange: {
+          '400': '#FF8C00', // Bright orange from reference
+          '500': '#FF7C00', // Slightly deeper orange
         },
       },
       fontFamily: {

@@ -12,16 +12,16 @@ export default function HowToJoinSection({ onJoinClick }: HowToJoinSectionProps)
   };
 
   return (
-    <section className="relative bg-gradient-to-b from-blue-450 via-blue-400 to-blue-500 py-32 overflow-hidden grainy-texture">
+    <section className="relative bg-gradient-to-b from-blue-450 via-blue-550 to-blue-650 py-24 md:py-32 overflow-hidden grainy-texture">
       {/* Abstract shapes */}
       <div className="absolute inset-0 overflow-hidden z-0">
-        <div className="absolute top-20 left-20 w-96 h-96 bg-pink-300/20 rounded-full blur-3xl"></div>
-        <div className="absolute bottom-20 right-20 w-96 h-96 bg-cyan-300/30 rounded-full blur-3xl"></div>
+        <div className="absolute top-20 left-20 w-96 h-96 bg-pink-300/25 rounded-full blur-3xl"></div>
+        <div className="absolute bottom-20 right-20 w-96 h-96 bg-mint-400/30 rounded-full blur-3xl"></div>
       </div>
 
       <div className="relative max-w-6xl mx-auto px-6 lg:px-8 z-10">
-        <div className="text-center mb-20">
-          <h2 className="text-6xl sm:text-7xl md:text-8xl font-black text-white tracking-tight text-shadow-3d">
+        <div className="text-center mb-16 md:mb-20">
+          <h2 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-black text-white tracking-tight text-shadow-3d">
             How To Join
           </h2>
         </div>
@@ -98,7 +98,7 @@ export default function HowToJoinSection({ onJoinClick }: HowToJoinSectionProps)
 
           <button 
             onClick={handleJoinClick}
-            className="inline-block px-14 md:px-18 py-6 md:py-7 text-xl md:text-2xl font-bold text-white bg-orange-500 rounded-full shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105 active:scale-95"
+            className="inline-block w-full max-w-md px-10 md:px-14 lg:px-18 py-6 md:py-7 text-lg md:text-xl lg:text-2xl font-bold text-white bg-orange-400 rounded-full shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105 active:scale-95 touch-manipulation"
             data-testid="button-join-whatsapp-how"
           >
             Join WhatsApp Group Now

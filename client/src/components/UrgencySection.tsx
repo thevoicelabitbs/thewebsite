@@ -14,21 +14,21 @@ export default function UrgencySection({ onJoinClick }: UrgencySectionProps) {
   return (
     <section 
       id="urgency-section"
-      className="relative bg-gradient-to-b from-blue-500 via-blue-600 to-blue-650 py-32 overflow-hidden grainy-texture"
+      className="relative bg-gradient-to-b from-blue-650 via-blue-550 to-blue-450 py-24 md:py-32 overflow-hidden grainy-texture"
       data-testid="section-urgency"
     >
       {/* Glow effects */}
       <div className="absolute inset-0 overflow-hidden z-0">
-        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[800px] bg-pink-400/20 rounded-full blur-[150px]"></div>
-        <div className="absolute top-20 right-10 w-96 h-96 bg-orange-300/30 rounded-full blur-3xl"></div>
+        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[800px] bg-pink-300/25 rounded-full blur-[150px]"></div>
+        <div className="absolute top-20 right-10 w-96 h-96 bg-orange-400/30 rounded-full blur-3xl"></div>
       </div>
 
       <div className="relative max-w-6xl mx-auto px-6 lg:px-8 text-center z-10">
-        <h2 className="text-7xl sm:text-8xl md:text-9xl font-black text-white tracking-tight mb-8 text-shadow-3d">
+        <h2 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl xl:text-9xl font-black text-white tracking-tight mb-6 md:mb-8 text-shadow-3d">
           Tonight: 10 Spots Only
         </h2>
 
-        <p className="text-4xl md:text-5xl font-black mb-20" style={{ color: '#f97316', textShadow: '0 2px 4px rgba(0, 0, 0, 0.3), 0 1px 0 rgba(0, 0, 0, 0.2)' }}>
+        <p className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-black mb-16 md:mb-20 px-4" style={{ color: '#FF8C00', textShadow: '0 2px 4px rgba(0, 0, 0, 0.3), 0 1px 0 rgba(0, 0, 0, 0.2)' }}>
           This is Your ONLY Entry Point
         </p>
 
@@ -73,7 +73,7 @@ export default function UrgencySection({ onJoinClick }: UrgencySectionProps) {
 
         <button 
           onClick={handleJoinClick}
-          className="inline-block px-16 md:px-20 py-6 md:py-8 text-2xl md:text-3xl font-bold text-white bg-orange-500 rounded-full shadow-xl hover:shadow-2xl transition-all duration-300 hover:scale-105 active:scale-95"
+          className="inline-block w-full max-w-lg px-12 md:px-16 lg:px-20 py-6 md:py-8 text-xl md:text-2xl lg:text-3xl font-bold text-white bg-orange-400 rounded-full shadow-xl hover:shadow-2xl transition-all duration-300 hover:scale-105 active:scale-95 touch-manipulation"
           data-testid="button-join-urgency"
         >
           Join Now - Don't Miss Out

@@ -2,19 +2,19 @@
 
 export default function SolutionSection() {
   return (
-    <section className="relative bg-gradient-to-b from-blue-600 via-blue-500 to-blue-550 py-32 overflow-hidden grainy-texture">
+    <section className="relative bg-gradient-to-b from-blue-450 via-blue-550 to-blue-650 py-24 md:py-32 overflow-hidden grainy-texture">
       {/* Abstract shapes */}
       <div className="absolute inset-0 overflow-hidden z-0">
-        <div className="absolute top-20 left-10 w-96 h-96 bg-pink-300/20 rounded-full blur-3xl"></div>
-        <div className="absolute bottom-20 right-10 w-96 h-96 bg-cyan-200/30 rounded-full blur-3xl"></div>
+        <div className="absolute top-20 left-10 w-96 h-96 bg-pink-300/25 rounded-full blur-3xl"></div>
+        <div className="absolute bottom-20 right-10 w-96 h-96 bg-mint-400/30 rounded-full blur-3xl"></div>
       </div>
 
       <div className="relative max-w-7xl mx-auto px-6 lg:px-8 z-10">
-        <div className="text-center mb-20">
-          <h2 className="text-6xl sm:text-7xl md:text-8xl font-black text-white tracking-tight mb-8 text-shadow-3d">
+        <div className="text-center mb-16 md:mb-20">
+          <h2 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-black text-white tracking-tight mb-6 md:mb-8 text-shadow-3d">
             The Solution
           </h2>
-          <p className="text-2xl md:text-3xl font-bold text-white/95 text-shadow-soft">
+          <p className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold text-white/95 text-shadow-soft px-4">
             Real conversations. Real people. Every week.
           </p>
         </div>
@@ -50,7 +50,7 @@ export default function SolutionSection() {
 
           {/* Card 2 - Urgent prep session */}
           <div 
-            className="bg-gradient-to-br from-orange-400 to-pink-400 border-2 border-orange-300/50 rounded-3xl p-8 md:p-10 hover:shadow-2xl transition-all duration-300 shadow-xl"
+            className="bg-gradient-to-br from-orange-400 to-pink-400 border-2 border-orange-400/50 rounded-3xl p-8 md:p-10 hover:shadow-2xl transition-all duration-300 shadow-xl"
             data-testid="card-prep-session"
           >
             <h3 className="text-2xl md:text-3xl lg:text-4xl font-black text-white mb-6 md:mb-8 text-shadow-3d">
@@ -82,9 +82,9 @@ export default function SolutionSection() {
           </div>
         </div>
 
-        <div className="text-center mt-20">
-          <div className="inline-block bg-white/25 backdrop-blur-md border border-white/50 rounded-full px-10 py-5 shadow-lg">
-            <p className="text-xl md:text-2xl font-bold text-white text-shadow-soft">
+        <div className="text-center mt-16 md:mt-20">
+          <div className="inline-block bg-white/25 backdrop-blur-md border border-white/50 rounded-full px-8 md:px-10 py-4 md:py-5 shadow-lg">
+            <p className="text-lg md:text-xl lg:text-2xl font-bold text-white text-shadow-soft">
               100% free. 100% online. All levels welcome.
             </p>
           </div>

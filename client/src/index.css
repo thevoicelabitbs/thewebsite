@@ -312,6 +312,21 @@
     -moz-osx-font-smoothing: grayscale;
     text-rendering: optimizeLegibility;
   }
+
+  /* Fix mobile text blurriness */
+  @media (max-width: 768px) {
+    h1, h2, h3, h4, h5, h6 {
+      font-weight: 900 !important;
+      letter-spacing: -0.02em;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
+    
+    p, span, div {
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
+  }
 }
 
 /**

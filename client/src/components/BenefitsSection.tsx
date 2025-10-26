@@ -12,16 +12,16 @@ export default function BenefitsSection() {
   ];
 
   return (
-    <section className="relative bg-gradient-to-b from-blue-550 via-blue-500 to-blue-450 py-32 overflow-hidden grainy-texture">
+    <section className="relative bg-gradient-to-b from-blue-650 via-blue-550 to-blue-450 py-24 md:py-32 overflow-hidden grainy-texture">
       {/* Abstract shapes */}
       <div className="absolute inset-0 overflow-hidden z-0">
-        <div className="absolute top-20 right-20 w-96 h-96 bg-pink-300/20 rounded-full blur-3xl"></div>
-        <div className="absolute bottom-20 left-20 w-96 h-96 bg-cyan-300/30 rounded-full blur-3xl"></div>
+        <div className="absolute top-20 right-20 w-96 h-96 bg-pink-300/25 rounded-full blur-3xl"></div>
+        <div className="absolute bottom-20 left-20 w-96 h-96 bg-mint-400/30 rounded-full blur-3xl"></div>
       </div>
 
       <div className="relative max-w-7xl mx-auto px-6 lg:px-8 z-10">
-        <div className="text-center mb-20">
-          <h2 className="text-6xl sm:text-7xl md:text-8xl font-black text-white tracking-tight text-shadow-3d">
+        <div className="text-center mb-16 md:mb-20">
+          <h2 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-black text-white tracking-tight text-shadow-3d">
             What You Get
           </h2>
         </div>
@@ -43,8 +43,8 @@ export default function BenefitsSection() {
             ))}
         </div>
 
-        <div className="text-center mt-16">
-          <p className="text-4xl md:text-5xl lg:text-6xl font-black text-white tracking-tight text-shadow-3d leading-relaxed">
+        <div className="text-center mt-12 md:mt-16">
+          <p className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-black text-white tracking-tight text-shadow-3d leading-relaxed px-4">
             Stop memorizing grammar.<br />
             Start having conversations.
           </p>

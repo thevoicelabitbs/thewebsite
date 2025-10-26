@@ -14,12 +14,12 @@ export default function FinalCTASection({ onJoinClick }: FinalCTASectionProps) {
   };
 
   return (
-    <section className="relative bg-gradient-to-b from-blue-550 via-blue-500 to-blue-450 py-32 overflow-hidden flex items-center grainy-texture">
+    <section className="relative bg-gradient-to-b from-blue-650 via-blue-550 to-blue-450 py-24 md:py-32 overflow-hidden flex items-center grainy-texture">
       {/* Abstract shapes */}
       <div className="absolute inset-0 overflow-hidden z-0">
         <div className="absolute top-20 left-1/4 w-96 h-96 bg-pink-300/30 rounded-full blur-3xl"></div>
-        <div className="absolute bottom-20 right-1/4 w-96 h-96 bg-cyan-300/30 rounded-full blur-3xl"></div>
-        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-pink-200/20 rounded-full blur-[100px]"></div>
+        <div className="absolute bottom-20 right-1/4 w-96 h-96 bg-mint-400/30 rounded-full blur-3xl"></div>
+        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-pink-300/25 rounded-full blur-[100px]"></div>
       </div>
 
       <div className="relative max-w-6xl mx-auto px-6 lg:px-8 text-center w-full z-10">
