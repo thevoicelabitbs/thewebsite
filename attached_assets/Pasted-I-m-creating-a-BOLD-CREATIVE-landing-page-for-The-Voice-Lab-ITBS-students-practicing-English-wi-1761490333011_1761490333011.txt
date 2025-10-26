@@ -1,0 +1,321 @@
+I'm creating a BOLD, CREATIVE landing page for "The Voice Lab" - ITBS students practicing English with international peers.
+
+LEARN MY BRAND STYLE from these Instagram posts I'm providing (Images 1 & 2):
+- Notice the BOLD typography mixing white and colored words
+- See the vibrant blue-to-purple gradients
+- Observe how text has IMPACT with size variation
+- Color palette: Blues, purples, coral/orange accents
+- Modern, youthful, energetic but professional
+
+RECREATE THIS AESTHETIC for the website.
+
+======================
+DESIGN SYSTEM
+======================
+
+TYPOGRAPHY (Chillax Variable - BOLD):
+- Headlines: Font weight 800-900 (extra bold)
+- Mix white text with COLORED words (like "Problem" in coral/orange, "TALK" in orange)
+- Sizes: MASSIVE (text-7xl to text-9xl on desktop)
+- Letter-spacing: Tight (-0.03em to -0.05em)
+- Body: Font weight 600 minimum, text-xl
+- Text shadows for depth
+- Fallback: System fonts
+
+COLORS (Match Instagram style):
+- Deep blues (#2563eb, #1e40af)
+- Purple gradients (#7c3aed, #9333ea)
+- Coral/orange for emphasis (#ff6b6b, #f97316)
+- Blue→Purple gradients (like Image 2 background)
+- NOT brown - use coral/orange for colored text
+- White text as primary
+
+REFERENCE: Image 1 shows blue-to-teal gradient. Image 2 shows purple-to-blue gradient with white + orange text mixing.
+
+CHARACTERS: 2 transparent PNGs
+- girl_smiling.png (student)
+- voiceclubpersona.png (mascot)
+Use LARGE, dramatic positioning with glows
+
+CREATIVE ELEMENTS:
+- Abstract floating shapes
+- Gradient meshes
+- Wavy dividers
+- Bold shadows
+- Glow effects
+
+BUTTONS:
+- HUGE: px-16 py-6
+- Font weight: 800
+- Coral #ff6b6b
+- Massive glow
+- Animated gradient
+
+ANIMATIONS (performant):
+✓ Gradient shifts, glow pulse, simple fades
+✗ NO heavy animations
+
+======================
+PAGE STRUCTURE
+======================
+
+1. COUNTDOWN BAR
+━━━━━━━━━━━━━━━━━━━━
+Sticky top, dark blue gradient:
+"⚠️ LAST CHANCE! Entry prep session starts in: HH:MM:SS ⏰"
+When zero: "🔴 SESSION LIVE NOW!"
+Clickable → scroll to urgency
+Make it feel URGENT
+
+---
+
+2. HERO SECTION
+━━━━━━━━━━━━━━━━━━━━
+Background: Deep blue→purple gradient (like Image 2)
+
+HEADLINE (text-8xl/9xl, font-weight: 900):
+"Grow Your Professional
+International Network"
+
+(Check grammar - use whichever sounds better: "professional international" or "international professional")
+
+SUBTEXT (text-xl/2xl, font-weight: 600, white):
+"Practice English with students from Turkey, Greece & Croatia. Real conversations. Every Monday."
+
+TAGLINE (text-lg, font-weight: 600, white 70%):
+"Free. Fun. Real practice."
+
+BUTTON (huge coral, glow):
+"Join WhatsApp - Start Tonight"
+Links to: https://chat.whatsapp.com/G5ncFqtqtmT5gSBewjD93m
+
+CHARACTERS: girl_smiling.png (left), voiceclubpersona.png (right)
+Large, dramatic, with glows
+
+Creative: Abstract shapes, gradient layers
+
+---
+
+3. THE GAP SECTION
+━━━━━━━━━━━━━━━━━━━━
+Background: Purple→blue gradient (match Image 2 style)
+
+HEADER (text-6xl/7xl, font-weight: 900):
+"The <span class="text-orange-500 font-black">Problem</span>"
+(Mix white "The" with ORANGE/CORAL "Problem" - NOT brown, use #f97316 or #ff6b6b)
+
+INTRO (text-xl, font-weight: 600, white):
+"You studied English for years. But can you actually <span class="text-orange-500 font-black">TALK</span> to people from other countries?"
+(TALK in orange/coral, NOT brown)
+
+4 PAIN POINTS (diagonal cards):
+❌ Hold real conversations with Turkish students?
+❌ Debate global topics under pressure?
+❌ Build friendships across cultures?
+❌ Tell compelling stories in job interviews?
+
+CLOSING (text-3xl, font-weight: 800, white):
+"That's the gap we fix. Every Monday. <span class="text-orange-500 font-black">FOR FREE.</span>"
+(FOR FREE in orange/coral for emphasis)
+
+Cards: Angled, gradient borders, bold text
+
+---
+
+4. THE SOLUTION SECTION
+━━━━━━━━━━━━━━━━━━━━
+Background: Blue→teal gradient
+
+HEADER (text-6xl, font-weight: 900, gradient fill):
+"The Solution"
+
+SUBHEADER (text-2xl, font-weight: 700):
+"Real conversations. Real people. Every week."
+
+TWO CARDS (angled, different sizes):
+
+CARD 1 (larger): "Every Monday Evening"
+- 1-on-1 with students across three countries
+- Talk about real topics (UN SDGs)
+- 1-2 hours of conversation
+- Build international friendships
+
+CARD 2 (urgent styling): "⚠️ TODAY: Sunday 8 PM - ONE TIME ONLY"
+- EXCLUSIVE entry prep session
+- This is your ONLY way to join
+- Learn conversation techniques
+- Get matched with international partners
+- Limited to 10 spots - LAST CHANCE!
+
+Make Card 2 feel URGENT with red/orange accents, pulsing border
+
+BADGE:
+"100% free. 100% online. All levels welcome."
+
+CHARACTERS: voiceclubpersona.png (large, between cards)
+
+---
+
+5. BENEFITS SECTION
+━━━━━━━━━━━━━━━━━━━━
+Background: Purple→blue gradient
+
+HEADER (text-6xl/7xl, font-weight: 900):
+"What You Get"
+
+6 BENEFITS (asymmetric grid):
+✓ Cross-cultural communication skills
+✓ Real fluency (not textbook English)
+✓ International network across three countries
+✓ Confidence speaking under pressure
+✓ Stories to tell in interviews
+✓ Weekly compounding improvement
+
+CLOSING (text-3xl, font-weight: 800):
+"Stop memorizing grammar. Start having conversations."
+
+CHARACTERS: girl_smiling.png (large), voiceclubpersona.png (small)
+
+---
+
+6. HOW TO JOIN SECTION
+━━━━━━━━━━━━━━━━━━━━
+Background: Bright blue gradient
+
+HEADER (text-6xl, font-weight: 900):
+"How To Join"
+
+3 STEPS (large numbered cards):
+
+1. Join WhatsApp Group → Get instant updates and session details
+
+2. Introduce Yourself → **REQUIRED**: Share your name, major, and why you want to join. This helps us build a strong community and ensures everyone is committed.
+(Make this look IMPORTANT - highlight with border/background)
+
+3. Show Up Tonight 8 PM → Your ONLY entry point to join The Voice Lab
+
+SUBTEXT (text-xl, font-weight: 700):
+"No forms. No fees. Just commitment."
+
+BUTTON (huge coral):
+"Join WhatsApp Group Now"
+Links to: https://chat.whatsapp.com/G5ncFqtqtmT5gSBewjD93m
+
+Emphasize step 2 is REQUIRED and important
+
+---
+
+7. URGENCY SECTION
+━━━━━━━━━━━━━━━━━━━━
+Background: Dark navy with orange/coral gradient glow
+
+HEADER (text-7xl, font-weight: 900, white with glow):
+"Tonight: 10 Spots Only"
+
+SUBHEADER (text-2xl, orange/coral):
+"This is Your ONLY Entry Point"
+
+3 KEY POINTS:
+⏰ 8 PM TODAY - ONE-TIME Prep Session
+🚨 Miss this = No entry to Monday sessions
+🌍 Start Your International Network Tonight
+
+TEXT (text-xl, font-weight: 600):
+"This Sunday prep session happens ONCE. It's your only way in. Every week you wait isn't an option - there's no next week for entry."
+
+HUGE BUTTON (coral, giant glow):
+"Join Now - Don't Miss Out"
+Links to: https://chat.whatsapp.com/G5ncFqtqtmT5gSBewjD93m
+
+Make this section feel EXTREMELY urgent
+
+---
+
+8. FAQ SECTION
+━━━━━━━━━━━━━━━━━━━━
+Background: Medium blue gradient
+
+HEADER (text-6xl, font-weight: 900):
+"Quick Questions"
+
+5 Q&As (accordion):
+Q: My English isn't great. Can I join?
+A: Yes! All levels welcome. That's why we have prep.
+
+Q: What if I'm nervous?
+A: Everyone is at first. That's what tonight's session is for.
+
+Q: What do I need?
+A: Internet, Google Meet, Monday evenings free.
+
+Q: Is this really free?
+A: Yes. Forever. No catches.
+
+Q: How do I start?
+A: Join WhatsApp NOW. Introduce yourself (required). Show up tonight 8 PM.
+
+---
+
+9. FINAL CTA
+━━━━━━━━━━━━━━━━━━━━
+Background: Vibrant blue→purple gradient with shapes
+
+LOGO (text-7xl, font-weight: 900, gradient fill):
+"The Voice Lab"
+
+TAGLINE (text-2xl, font-weight: 700):
+"Where ITBS Students Become Global Professionals"
+
+MASSIVE BUTTON (giant coral, animated):
+"Join WhatsApp Group"
+Links to: https://chat.whatsapp.com/G5ncFqtqtmT5gSBewjD93m
+
+FINAL LINE (text-xl, font-weight: 700):
+"Tonight, 8 PM. Your international network starts here."
+
+CHARACTER: voiceclubpersona.png (large, dramatic)
+
+Beautiful, aspirational, confident
+
+======================
+CRITICAL CORRECTIONS
+======================
+
+✓ Headline: "Grow Your Professional International Network" (check grammar)
+✓ Colored text in ORANGE/CORAL (#f97316, #ff6b6b) - NOT BROWN
+✓ "The Problem" - "The" white, "Problem" orange
+✓ "TALK" in orange when emphasizing
+✓ "FOR FREE" in orange at end of gap section
+✓ "Three countries" not "four countries"
+✓ Sunday prep is ONE-TIME ONLY, not weekly - make it urgent
+✓ Step 2: Introduce yourself to build community (not for matching)
+✓ Banner: "LAST CHANCE! Entry prep session starts in..."
+✓ All CTAs link to: https://chat.whatsapp.com/G5ncFqtqtmT5gSBewjD93m
+✓ "ITBS students" not "Tunisian students"
+✓ Emphasize introducing yourself is REQUIRED
+
+======================
+TECHNICAL
+======================
+
+- React + TypeScript + Tailwind
+- Load under 2s on 3G
+- Compress images (WebP, lazy load)
+- Minimal JS (countdown, accordion, smooth scroll)
+- Mobile-first responsive
+- High contrast, accessible
+- Semantic HTML
+
+WhatsApp link: https://chat.whatsapp.com/G5ncFqtqtmT5gSBewjD93m
+
+======================
+THE GOAL
+======================
+
+Match the Instagram aesthetic: Bold typography, blue/purple gradients, orange/coral accents, modern and energetic.
+
+Make it URGENT - tonight is the ONLY entry point.
+Make step 2 (introduce yourself) feel REQUIRED.
+Get ITBS students to join WhatsApp immediately.
+
+BOLD. PREMIUM. URGENT. BEAUTIFUL. 🔥
