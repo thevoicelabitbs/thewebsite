@@ -30,7 +30,7 @@ export default function FAQSection() {
   ];
 
   return (
-    <section className="relative min-h-screen bg-gradient-to-br from-cyan-400 via-blue-400 to-cyan-500 py-24 overflow-hidden grainy-texture">
+    <section className="relative bg-gradient-to-br from-cyan-400 via-blue-400 to-cyan-500 py-32 overflow-hidden grainy-texture">
       {/* Abstract shapes */}
       <div className="absolute inset-0 overflow-hidden z-0">
         <div className="absolute top-20 left-20 w-96 h-96 bg-pink-300/20 rounded-full blur-3xl"></div>
@@ -39,7 +39,7 @@ export default function FAQSection() {
 
       <div className="relative max-w-4xl mx-auto px-6 lg:px-8 z-10">
         <div className="text-center mb-20">
-          <h2 className="text-5xl sm:text-6xl md:text-7xl font-bold text-white tracking-tight text-shadow-3d">
+          <h2 className="text-6xl sm:text-7xl md:text-8xl font-black text-white tracking-tight text-shadow-3d">
             Quick Questions
           </h2>
         </div>
@@ -52,10 +52,10 @@ export default function FAQSection() {
               className="bg-white/20 backdrop-blur-md border border-white/40 rounded-2xl overflow-hidden shadow-lg"
               data-testid={`accordion-faq-${index}`}
             >
-              <AccordionTrigger className="px-6 md:px-8 py-6 text-left text-xl md:text-2xl font-semibold text-white hover:bg-white/25 transition-all duration-300 hover:no-underline text-shadow-soft">
+              <AccordionTrigger className="px-6 md:px-8 py-6 text-left text-xl md:text-2xl font-bold text-white hover:bg-white/25 transition-all duration-300 hover:no-underline text-shadow-soft">
                 {faq.question}
               </AccordionTrigger>
-              <AccordionContent className="px-6 md:px-8 pb-6 text-lg md:text-xl font-medium text-white/90 text-shadow-soft">
+              <AccordionContent className="px-6 md:px-8 pb-6 text-lg md:text-xl font-bold text-white/90 text-shadow-soft">
                 {faq.answer}
               </AccordionContent>
             </AccordionItem>

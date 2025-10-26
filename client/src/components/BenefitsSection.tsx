@@ -12,7 +12,7 @@ export default function BenefitsSection() {
   ];
 
   return (
-    <section className="relative min-h-screen bg-gradient-to-br from-blue-400 via-cyan-400 to-blue-500 py-24 overflow-hidden grainy-texture">
+    <section className="relative bg-gradient-to-br from-blue-400 via-cyan-400 to-blue-500 py-32 overflow-hidden grainy-texture">
       {/* Abstract shapes */}
       <div className="absolute inset-0 overflow-hidden z-0">
         <div className="absolute top-20 right-20 w-96 h-96 bg-pink-300/20 rounded-full blur-3xl"></div>
@@ -21,7 +21,7 @@ export default function BenefitsSection() {
 
       <div className="relative max-w-7xl mx-auto px-6 lg:px-8 z-10">
         <div className="text-center mb-20">
-          <h2 className="text-5xl sm:text-6xl md:text-7xl font-bold text-white tracking-tight text-shadow-3d">
+          <h2 className="text-6xl sm:text-7xl md:text-8xl font-black text-white tracking-tight text-shadow-3d">
             What You Get
           </h2>
         </div>
@@ -48,7 +48,7 @@ export default function BenefitsSection() {
               >
                 <div className="flex items-start gap-4">
                   <span className="text-3xl text-green-300 flex-shrink-0">✓</span>
-                  <p className="text-lg md:text-xl font-semibold text-white text-shadow-soft">
+                  <p className="text-lg md:text-xl font-bold text-white text-shadow-soft">
                     {benefit}
                   </p>
                 </div>
@@ -69,7 +69,7 @@ export default function BenefitsSection() {
         </div>
 
         <div className="text-center mt-16">
-          <p className="text-3xl md:text-4xl lg:text-5xl font-bold text-white tracking-tight text-shadow-3d leading-relaxed">
+          <p className="text-4xl md:text-5xl lg:text-6xl font-black text-white tracking-tight text-shadow-3d leading-relaxed">
             Stop memorizing grammar.<br />
             Start having conversations.
           </p>

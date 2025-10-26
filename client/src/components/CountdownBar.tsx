@@ -47,12 +47,12 @@ export default function CountdownBar({ targetHour = 20, onScrollToUrgency }: Cou
     >
       <div className="max-w-7xl mx-auto text-center">
         {isLive ? (
-          <p className="text-base md:text-lg font-semibold text-shadow-soft">
-            🔴 <span className="text-orange-400">SESSION LIVE NOW!</span> 🔴
+          <p className="text-base md:text-lg font-bold text-shadow-soft">
+            🔴 <span style={{ color: '#f97316', textShadow: '0 2px 4px rgba(0, 0, 0, 0.3), 0 1px 0 rgba(0, 0, 0, 0.2)' }}>SESSION LIVE NOW!</span> 🔴
           </p>
         ) : (
-          <p className="text-base md:text-lg font-semibold text-shadow-soft">
-            ⚠️ <span className="text-orange-400">LAST CHANCE!</span> Entry prep session starts in:{" "}
+          <p className="text-base md:text-lg font-bold text-shadow-soft">
+            ⚠️ <span style={{ color: '#f97316', textShadow: '0 2px 4px rgba(0, 0, 0, 0.3), 0 1px 0 rgba(0, 0, 0, 0.2)' }}>LAST CHANCE!</span> Entry prep session starts in:{" "}
             <span className="font-bold text-xl md:text-2xl">
               {formatTime(timeLeft.hours)}:{formatTime(timeLeft.minutes)}:{formatTime(timeLeft.seconds)}
             </span>{" "}

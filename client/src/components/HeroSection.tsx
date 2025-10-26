@@ -15,7 +15,7 @@ export default function HeroSection({ onJoinClick }: HeroSectionProps) {
   };
 
   return (
-    <section className="relative min-h-screen bg-gradient-to-br from-blue-400 via-cyan-400 to-blue-500 overflow-hidden pt-20 pb-24 grainy-texture">
+    <section className="relative bg-gradient-to-br from-blue-400 via-cyan-400 to-blue-500 overflow-hidden pt-20 pb-32 grainy-texture">
       {/* Abstract shapes */}
       <div className="absolute inset-0 overflow-hidden z-0">
         <div className="absolute top-20 left-10 w-96 h-96 bg-pink-300/20 rounded-full blur-3xl"></div>
@@ -37,23 +37,23 @@ export default function HeroSection({ onJoinClick }: HeroSectionProps) {
 
           {/* Center Content */}
           <div className="lg:col-span-8 text-center space-y-8 relative z-10">
-            <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl xl:text-9xl font-bold text-white tracking-tight leading-none text-shadow-3d">
+            <h1 className="text-6xl sm:text-7xl md:text-8xl lg:text-9xl font-black text-white tracking-tight leading-none text-shadow-3d">
               Grow Your<br />
               Professional<br />
               International Network
             </h1>
 
-            <p className="text-xl md:text-2xl font-medium text-white/95 max-w-3xl mx-auto leading-relaxed text-shadow-soft">
+            <p className="text-2xl md:text-3xl font-bold text-white/95 max-w-3xl mx-auto leading-relaxed text-shadow-soft">
               Practice English with students from Turkey, Greece & Croatia. Real conversations. Every Monday.
             </p>
 
-            <p className="text-lg md:text-xl font-medium text-white/80 text-shadow-soft">
+            <p className="text-xl md:text-2xl font-bold text-white/90 text-shadow-soft">
               Free. Fun. Real practice.
             </p>
 
             <button 
               onClick={handleJoinClick}
-              className="inline-block px-12 md:px-16 py-5 md:py-6 text-xl md:text-2xl font-bold text-white bg-gradient-to-r from-orange-400 to-pink-400 rounded-full shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105 active:scale-95 text-shadow-soft"
+              className="inline-block px-14 md:px-18 py-6 md:py-7 text-xl md:text-2xl font-bold text-white bg-orange-500 rounded-full shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105 active:scale-95"
               data-testid="button-join-whatsapp-hero"
             >
               Join WhatsApp - Start Tonight

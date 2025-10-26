@@ -14,7 +14,7 @@ export default function FinalCTASection({ onJoinClick }: FinalCTASectionProps) {
   };
 
   return (
-    <section className="relative min-h-screen bg-gradient-to-br from-blue-400 via-cyan-400 to-blue-500 py-24 overflow-hidden flex items-center grainy-texture">
+    <section className="relative bg-gradient-to-br from-blue-400 via-cyan-400 to-blue-500 py-32 overflow-hidden flex items-center grainy-texture">
       {/* Abstract shapes */}
       <div className="absolute inset-0 overflow-hidden z-0">
         <div className="absolute top-20 left-1/4 w-96 h-96 bg-pink-300/30 rounded-full blur-3xl"></div>
@@ -24,10 +24,10 @@ export default function FinalCTASection({ onJoinClick }: FinalCTASectionProps) {
 
       <div className="relative max-w-6xl mx-auto px-6 lg:px-8 text-center w-full z-10">
         <div className="mb-16">
-          <h2 className="text-6xl sm:text-7xl md:text-8xl font-bold text-white tracking-tight mb-10 text-shadow-3d">
+          <h2 className="text-7xl sm:text-8xl md:text-9xl font-black text-white tracking-tight mb-10 text-shadow-3d">
             The Voice Lab
           </h2>
-          <p className="text-2xl md:text-3xl font-semibold text-white/95 text-shadow-soft">
+          <p className="text-2xl md:text-3xl font-bold text-white/95 text-shadow-soft">
             Where ITBS Students Become Global Professionals
           </p>
         </div>
@@ -44,13 +44,13 @@ export default function FinalCTASection({ onJoinClick }: FinalCTASectionProps) {
 
         <button 
           onClick={handleJoinClick}
-          className="inline-block px-16 md:px-20 py-6 md:py-8 text-2xl md:text-3xl font-bold text-white bg-gradient-to-r from-orange-400 to-pink-400 rounded-full shadow-xl hover:shadow-2xl transition-all duration-300 hover:scale-105 active:scale-95 text-shadow-soft mb-12"
+          className="inline-block px-16 md:px-20 py-6 md:py-8 text-2xl md:text-3xl font-bold text-white bg-orange-500 rounded-full shadow-xl hover:shadow-2xl transition-all duration-300 hover:scale-105 active:scale-95 mb-12"
           data-testid="button-join-final"
         >
           Join WhatsApp Group
         </button>
 
-        <p className="text-xl md:text-2xl font-semibold text-white/90 text-shadow-soft">
+        <p className="text-xl md:text-2xl font-bold text-white/90 text-shadow-soft">
           Tonight, 8 PM. Your international network starts here.
         </p>
       </div>

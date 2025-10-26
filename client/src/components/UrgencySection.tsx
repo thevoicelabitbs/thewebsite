@@ -14,7 +14,7 @@ export default function UrgencySection({ onJoinClick }: UrgencySectionProps) {
   return (
     <section 
       id="urgency-section"
-      className="relative min-h-screen bg-gradient-to-br from-blue-500 via-cyan-500 to-blue-600 py-24 overflow-hidden grainy-texture"
+      className="relative bg-gradient-to-br from-blue-500 via-cyan-500 to-blue-600 py-32 overflow-hidden grainy-texture"
       data-testid="section-urgency"
     >
       {/* Glow effects */}
@@ -24,11 +24,11 @@ export default function UrgencySection({ onJoinClick }: UrgencySectionProps) {
       </div>
 
       <div className="relative max-w-6xl mx-auto px-6 lg:px-8 text-center z-10">
-        <h2 className="text-6xl sm:text-7xl md:text-8xl font-bold text-white tracking-tight mb-8 text-shadow-3d">
+        <h2 className="text-7xl sm:text-8xl md:text-9xl font-black text-white tracking-tight mb-8 text-shadow-3d">
           Tonight: 10 Spots Only
         </h2>
 
-        <p className="text-3xl md:text-4xl font-bold text-orange-400 mb-20 text-shadow-soft">
+        <p className="text-4xl md:text-5xl font-black mb-20" style={{ color: '#f97316', textShadow: '0 2px 4px rgba(0, 0, 0, 0.3), 0 1px 0 rgba(0, 0, 0, 0.2)' }}>
           This is Your ONLY Entry Point
         </p>
 
@@ -38,7 +38,7 @@ export default function UrgencySection({ onJoinClick }: UrgencySectionProps) {
             data-testid="card-urgency-1"
           >
             <div className="text-5xl mb-6">⏰</div>
-            <p className="text-xl md:text-2xl font-semibold text-white text-shadow-soft">
+            <p className="text-xl md:text-2xl font-bold text-white text-shadow-soft">
               8 PM TODAY<br />
               <span className="text-orange-300">ONE-TIME Prep Session</span>
             </p>
@@ -49,7 +49,7 @@ export default function UrgencySection({ onJoinClick }: UrgencySectionProps) {
             data-testid="card-urgency-2"
           >
             <div className="text-5xl mb-6">🚨</div>
-            <p className="text-xl md:text-2xl font-semibold text-white text-shadow-soft">
+            <p className="text-xl md:text-2xl font-bold text-white text-shadow-soft">
               Miss this =<br />
               <span className="text-red-300">No entry to Monday sessions</span>
             </p>
@@ -60,20 +60,20 @@ export default function UrgencySection({ onJoinClick }: UrgencySectionProps) {
             data-testid="card-urgency-3"
           >
             <div className="text-5xl mb-6">🌍</div>
-            <p className="text-xl md:text-2xl font-semibold text-white text-shadow-soft">
+            <p className="text-xl md:text-2xl font-bold text-white text-shadow-soft">
               Start Your<br />
               <span className="text-cyan-200">International Network Tonight</span>
             </p>
           </div>
         </div>
 
-        <p className="text-xl md:text-2xl font-medium text-white/95 max-w-3xl mx-auto mb-20 leading-relaxed text-shadow-soft">
+        <p className="text-2xl md:text-3xl font-bold text-white/95 max-w-3xl mx-auto mb-20 leading-relaxed text-shadow-soft">
           This Sunday prep session happens ONCE. It's your only way in. Every week you wait isn't an option - there's no next week for entry.
         </p>
 
         <button 
           onClick={handleJoinClick}
-          className="inline-block px-16 md:px-20 py-6 md:py-8 text-2xl md:text-3xl font-bold text-white bg-gradient-to-r from-orange-400 to-pink-400 rounded-full shadow-xl hover:shadow-2xl transition-all duration-300 hover:scale-105 active:scale-95 text-shadow-soft"
+          className="inline-block px-16 md:px-20 py-6 md:py-8 text-2xl md:text-3xl font-bold text-white bg-orange-500 rounded-full shadow-xl hover:shadow-2xl transition-all duration-300 hover:scale-105 active:scale-95"
           data-testid="button-join-urgency"
         >
           Join Now - Don't Miss Out

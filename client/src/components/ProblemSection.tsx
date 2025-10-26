@@ -7,7 +7,7 @@ export default function ProblemSection() {
   ];
 
   return (
-    <section className="relative min-h-screen bg-gradient-to-br from-cyan-400 via-blue-400 to-cyan-500 py-24 overflow-hidden grainy-texture">
+    <section className="relative bg-gradient-to-br from-cyan-400 via-blue-400 to-cyan-500 py-32 overflow-hidden grainy-texture">
       {/* Abstract shapes */}
       <div className="absolute inset-0 overflow-hidden z-0">
         <div className="absolute top-40 right-20 w-96 h-96 bg-pink-300/20 rounded-full blur-3xl"></div>
@@ -16,13 +16,13 @@ export default function ProblemSection() {
 
       <div className="relative max-w-7xl mx-auto px-6 lg:px-8 z-10">
         <div className="text-center mb-20">
-          <h2 className="text-5xl sm:text-6xl md:text-7xl font-bold text-white tracking-tight mb-10 text-shadow-3d">
-            The <span className="text-orange-400">Problem</span>
+          <h2 className="text-6xl sm:text-7xl md:text-8xl font-black text-white tracking-tight mb-10 text-shadow-3d">
+            The <span className="text-orange-500" style={{ textShadow: '0 2px 4px rgba(0, 0, 0, 0.3), 0 1px 0 rgba(0, 0, 0, 0.2)' }}>Problem</span>
           </h2>
 
-          <p className="text-xl md:text-2xl font-medium text-white/95 max-w-4xl mx-auto leading-relaxed text-shadow-soft">
+          <p className="text-2xl md:text-3xl font-bold text-white/95 max-w-4xl mx-auto leading-relaxed text-shadow-soft">
             You studied English for years. But can you actually{" "}
-            <span className="text-orange-400 font-bold">TALK</span>{" "}
+            <span className="text-orange-500 font-black" style={{ textShadow: '0 2px 4px rgba(0, 0, 0, 0.3), 0 1px 0 rgba(0, 0, 0, 0.2)' }}>TALK</span>{" "}
             to people from other countries?
           </p>
         </div>
@@ -36,7 +36,7 @@ export default function ProblemSection() {
             >
               <div className="flex items-start gap-4">
                 <span className="text-3xl text-red-300 flex-shrink-0">❌</span>
-                <p className="text-xl md:text-2xl font-semibold text-white text-shadow-soft">
+                <p className="text-xl md:text-2xl font-bold text-white text-shadow-soft">
                   {point}
                 </p>
               </div>
@@ -45,9 +45,9 @@ export default function ProblemSection() {
         </div>
 
         <div className="text-center">
-          <p className="text-3xl md:text-4xl lg:text-5xl font-bold text-white tracking-tight text-shadow-3d leading-relaxed">
+          <p className="text-4xl md:text-5xl lg:text-6xl font-black text-white tracking-tight text-shadow-3d leading-relaxed">
             That's the gap we fix. Every Monday.{" "}
-            <span className="text-orange-400">FOR FREE.</span>
+            <span className="text-orange-500" style={{ textShadow: '0 2px 4px rgba(0, 0, 0, 0.3), 0 1px 0 rgba(0, 0, 0, 0.2)' }}>FOR FREE.</span>
           </p>
         </div>
       </div>
